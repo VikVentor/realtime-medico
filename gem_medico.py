@@ -5,7 +5,7 @@ import urllib.parse
 import webbrowser
 
 # Configure the Google Generative AI API
-genai.configure(api_key="AIzaSyAKi62cSIUc6fVt5XH0MZWN9G3WDkDCuCs")
+genai.configure(api_key="youkey")
 
 # Choose a Gemini model.
 model = genai.GenerativeModel(model_name="gemini-1.5-pro")
